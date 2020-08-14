@@ -27,7 +27,7 @@ def find_valid_calls(planeteer_calls)
   #   break if results = planeteer_calls.find { |this| this == valid_calls[i] }
   #   i += 1
   valid_calls.each do |element|
-    break if results = planeteer_calls.find { |this| == |element| }
+    break if results = planeteer_calls.find { |this| this == |element| }
 end 
 results
 end
