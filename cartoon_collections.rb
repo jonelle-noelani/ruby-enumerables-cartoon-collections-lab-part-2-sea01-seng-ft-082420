@@ -26,4 +26,4 @@ end
   # Return the first valid call found, or return nil if no valid calls are found
   planeteer_calls.find { |a| a == element }
 end 
-end
+
