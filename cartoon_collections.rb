@@ -27,4 +27,5 @@ def find_valid_calls(planeteer_calls)
     planeteer_calls.find { |this| this == valid_calls[i] }
     i += 1
 end 
+end
 
